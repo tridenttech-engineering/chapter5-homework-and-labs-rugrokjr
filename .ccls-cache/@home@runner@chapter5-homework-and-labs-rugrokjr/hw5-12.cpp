@@ -13,15 +13,15 @@ double price2 = 0.00;
 double total = 0.00;
 double discount = 0.0;
 
-cout << "Enter Price of first item: ";"
+cout << "Enter Price of first item: ";
 		cin >> price1;
-cout << "Enter Price of second item: ";"
+cout << "Enter Price of second item: ";
 		cin >> price2;
 
 if (price1 <= price2)
 		discount = price1 * discount_perc;
 	price1 = price1 - discount;
-else 
+	else 
 		discount= price2 * discount_perc;
 	price2 = price2 - discount;
 //end if
