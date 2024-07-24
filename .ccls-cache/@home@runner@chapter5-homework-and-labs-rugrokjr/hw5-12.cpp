@@ -8,8 +8,8 @@ using namespace std;
 int main()
 {
 const double discount_perc = 0.5;
-const double price1 = 0.00;
-const double price2 = 0.00;
+double price1 = 0.00;
+double price2 = 0.00;
 double total = 0.00;
 double discount = 0.0;
 

@@ -23,7 +23,7 @@ int main()
 		if (member == 'Y' || member == 'y')
 			discount = amtdue * member_discount_rate;
 		else
-			discount = amtdue * discount_rate);
+			discount = amtdue * discount_rate;
 		//end if
 
 	amtdue -= discount;
